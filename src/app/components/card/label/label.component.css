@@ -1,0 +1,17 @@
+.label {
+  position: absolute;
+  bottom: 90px;
+  right: 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0 50px;
+  background-color: #0d0d0d5c;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Segoe UI', sans-serif;
+}

@@ -1,0 +1,32 @@
+.price_content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, .8);
+
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+  font-family: Calibri;
+  gap: 3px;
+  padding: 8px;
+}
+
+.price_content > .value_content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.console{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.console span {
+  font-weight: bolder;
+  color: aqua;
+}
+
